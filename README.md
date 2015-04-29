@@ -1,4 +1,4 @@
-# zookeeper_3.0   Please feel free let me know, if there are any errors or discovers from you. 
+# zookeeper_3.0   //Please feel free let me know, if there are any errors or discovers from you. 
 utilize zookeeper to survive died server
 
 Start Zookeeper 
@@ -31,7 +31,7 @@ In the console window, you can monitor what node exist zookeeper.
 And after certain of time, the Runner program automatically die, and then the program recreate the Runner what was deleted/died.  
 
 	
-5.For another function, you can create three or more  ephemeral nodes but different name under one persistent node, another than in the insertData.java, change the parameter of setData() to your own path to set data for the ephemeral.  Run the main.java(for create three or more nodes under one persistent node, you also should change some parameter in main.java) and then Run the Rmonitor.java. after monitoring, you should use insertData.java to handle the data. (Figure 2.)
+5.For another function, you can create three or more  ephemeral nodes but different name under one persistent node, another than in the insertData.java, change the parameter of setData() to your own path to set data for the ephemeral.  Run the main.java(for create three or more nodes under one persistent node, you also should change some parameter in main.java) and then Run the Rmonitor.java. after monitoring, you should use insertData.java to handle the data. 
 
 6.What is the result from step 4?
 After the one of the node died, the program will select the most fresh data from the rest of the node under the persistent and recreate one with this fresh data.
