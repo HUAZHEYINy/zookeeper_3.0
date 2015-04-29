@@ -19,9 +19,9 @@ In the Command Line(CMD), run the following command to start the zookeeper serve
 /zookeeper3.4.6/bin/zkServer.sh start
 4.The maven dependency for Eclipse:
 
-org.apache.zookeeper
-zookeeper
-3.3.2
+	org.apache.zookeeper
+	zookeeper
+	3.3.2
 
 Run the program
 1.	Export the Runner.java As executable jar file. 
