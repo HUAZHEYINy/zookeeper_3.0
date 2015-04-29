@@ -3,16 +3,16 @@ utilize zookeeper to survive died server
 
 Start Zookeeper 
 1.Download : Go to the following link for downloading. 
-https://zookeeper.apache.org  (Download the stable one, this report is present by zookeeper.3.4.6)
+	https://zookeeper.apache.org  (Download the stable one, this report is present by zookeeper.3.4.6)
 
 2.After downloaded, we should configure it. 
-Open:  /zookeeper3.4.6/conf/zoo.cfg 
+	Open:  /zookeeper3.4.6/conf/zoo.cfg 
 
 For testing we only run it in our local machine. Copy and paste the following content into this file. (you also can find the tutorial in https://zookeeper.apache.org/doc/trunk/zookeeperStarted.html
 
-tickTime=2000
-dataDir=/your path/where/you/want/to/store/data/in-memory/databse
-clientPort=2181
+	tickTime=2000
+	dataDir=/your path/where/you/want/to/store/data/in-memory/databse
+	clientPort=2181
 
 3.Start Zookeeper server.
 In the Command Line(CMD), run the following command to start the zookeeper server in your own machine. 
@@ -24,9 +24,9 @@ In the Command Line(CMD), run the following command to start the zookeeper serve
 	3.3.2
 
 Run the program
-1.	Export the Runner.java As executable jar file. 
-2.	In the main.java, change the some parameter as the comments in the main.java. 
-3.	First function. And then run the main.java and then Run the Rmonitor.java
+	1.Export the Runner.java As executable jar file. 
+	2.In the main.java, change the some parameter as the comments in the main.java. 
+	3.First function. And then run the main.java and then Run the Rmonitor.java
 In the console window, you can monitor what node exist zookeeper. 
 And after certain of time, the Runner program automatically die, and then the program recreate the Runner what was deleted/died.  
 
@@ -46,8 +46,8 @@ The first portion of the server.1 section 123.456.789.1 is the host to which the
 ZkClient client = new ZkClient("123.456.789.1:2181");
 Basically, we can connect to the zookeeper in another computer that can be implement by the above code. And then implement the function what you want. 
 The Maven dependency : 
-		com.101tec
-		zkclient
-		0.4
+	com.101tec
+	zkclient
+	0.4
 javadoc : http://javadox.com/com.101tec/zkclient/0.4/org/I0Itec/zkclient/ZkClient.html
 
