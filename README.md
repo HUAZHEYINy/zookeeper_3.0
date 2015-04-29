@@ -24,9 +24,9 @@ In the Command Line(CMD), run the following command to start the zookeeper serve
 	3.3.2
 
 Run the program
-	1.Export the Runner.java As executable jar file. 
-	2.In the main.java, change the some parameter as the comments in the main.java. 
-	3.First function. And then run the main.java and then Run the Rmonitor.java
+        1.Export the Runner.java As executable jar file. 
+        2.In the main.java, change the some parameter as the comments in the main.java. 
+        3.First function. And then run the main.java and then Run the Rmonitor.java
 In the console window, you can monitor what node exist zookeeper. 
 And after certain of time, the Runner program automatically die, and then the program recreate the Runner what was deleted/died.  
 
