@@ -1,13 +1,6 @@
 # zookeeper_3.0  **** Please feel free let me know, if there are any errors or discovers from you. ***
 utilize zookeeper to survive died server
-Spring Independent Study Final Report
-Abstract
 
-The project aimed at distributing server based on the Zookeeper. The program include two parts, one of them is main server. It responds monitoring the state of node. Another part of program is nodes that were distributed in the aimed server where we store the data. When the main method start running, we can keep monitoring the state of each node. As long as one or more of the servers died or disappeared, we can recreate another server with the data that copy from the previous died server. We simulate the experiment in the Amazon web Service EC2.
-1. Zookeeper
-What is Zookeeper? 
-	Zookeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. All of these kinds of services are used in some form or another by distributed applications. Each time they are implemented there is a lot of work that goes into fixing the bugs and race conditions that are inevitable. Because of the difficulty of implementing theses kinds of services, applications initially usually skimp on them, which make them brittle in the presence of change and difficult to manage. Even when done correctly, different implementations of these services lead to management complexity when the applications are deployed. 
-	Even though Zookeeper presents a file system-like hierarchy, it should not be used as a general-purpose file system. Instead, it should only be used as a storage mechanism for the small amount of data required for providing reliability, availability, and coordination to your distributed application. 
 Start Zookeeper 
 1.	Download : Go to the following link for downloading. 
 https://zookeeper.apache.org  (Download the stable one, this report is present by zookeeper.3.4.6)
@@ -57,21 +50,6 @@ The Maven dependency :
 		zkclient
 		0.4
 javadoc : http://javadox.com/com.101tec/zkclient/0.4/org/I0Itec/zkclient/ZkClient.html
-
-
-
-
-
-
-
-	
-
-
-
-
- 
-	
-
 
 
 
