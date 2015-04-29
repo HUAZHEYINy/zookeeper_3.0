@@ -1,4 +1,4 @@
-# zookeeper_3.0  **** Please feel free let me know, if there are any errors or discovers from you. ***
+# zookeeper_3.0   Please feel free let me know, if there are any errors or discovers from you. 
 utilize zookeeper to survive died server
 
 Start Zookeeper 
